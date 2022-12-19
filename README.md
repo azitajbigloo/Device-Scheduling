@@ -24,6 +24,7 @@ Inspired by Graham’s notation (Graham 1979), the following notation is used fo
 - Total job sizes on a batch should not exceed machine capacity.
 - All jobs have the same processing time p.
 
-## This repository has two compounents:
-  1. Scheduling and Optimization Algorithms with CPLEX in Java 
-  2. Simulation Models for Scheduling Medical Devices 
+## This repository has the following compounents:
+  1. Scheduling and Optimization Algorithms with CPLEX in Java (Optimal Approach)
+  2. Simulation Models for Scheduling Medical Devices (Simulation Heuristics)
+  3. Dynamic programming Heuristic for the problem (Mathematical Heuristic)
