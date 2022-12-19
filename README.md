@@ -17,12 +17,11 @@ Each machine can process multiple jobs in batches as long as the total size of a
 Inspired by Graham’s notation (Graham 1979), the following notation is used for this problem: P|p-batch,r_j,p_j=p,s_j,C| C_max. P refers to identical parallel machines, p-batch indicates parallel batching, p_j=p shows identical processing time, r_j  and s_j  demonstrates job release time and job size, C is for machine (batch) capacity and C_max refers to the makespan.
 
 Assumptions:
-•	   Splitting jobs into different batches is not allowed.
-•	   Machines cannot be interrupted during the process.
-•	   Machine capacity is equal to batch capacity.
-•	   Total job sizes on a batch should not exceed machine capacity.
-•	   All jobs have the same processing time p.
-
+-	Splitting jobs into different batches is not allowed.
+- Machines cannot be interrupted during the process.
+- Machine capacity is equal to batch capacity.
+- Total job sizes on a batch should not exceed machine capacity.
+- All jobs have the same processing time p.
 
 This repository has two compounents:
   1. Scheduling and Optimization Algorithms with CPLEX in Java 
