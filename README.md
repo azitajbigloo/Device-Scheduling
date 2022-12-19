@@ -1,8 +1,9 @@
 # Device-Scheduling
-Project Title:
+
+## Project Title:
 Simulation and optimization of Medical Devices in Hospitals, a batch scheduling approach.
 
-Problem Description:
+## Problem Description:
 A Parallel Batch Scheduling Problem.
 The problem consists of non-identical jobs with different sizes and arrival times and multiple machines working in parallel with the same capacity and processing time. 
 Multiple jobs can be batched together and scheduled on machines as long as the summation of the job sizes in a batch does not exceed the machine capacity. 
@@ -16,13 +17,13 @@ All machines are identical, and their processing time is equal to the job proces
 Each machine can process multiple jobs in batches as long as the total size of all the jobs on the machine does not exceed the machine capacity (C). 
 Inspired by Graham’s notation (Graham 1979), the following notation is used for this problem: P|p-batch,r_j,p_j=p,s_j,C| C_max. P refers to identical parallel machines, p-batch indicates parallel batching, p_j=p shows identical processing time, r_j  and s_j  demonstrates job release time and job size, C is for machine (batch) capacity and C_max refers to the makespan.
 
-Assumptions:
+## Assumptions:
 -	Splitting jobs into different batches is not allowed.
 - Machines cannot be interrupted during the process.
 - Machine capacity is equal to batch capacity.
 - Total job sizes on a batch should not exceed machine capacity.
 - All jobs have the same processing time p.
 
-This repository has two compounents:
+## This repository has two compounents:
   1. Scheduling and Optimization Algorithms with CPLEX in Java 
   2. Simulation Models for Scheduling Medical Devices 
